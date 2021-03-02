@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Beehive</title>
+
+    <!-- Bootstrap -->
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+      
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="bootstrap-3.4.1-dist/css/bootstrap.min.css">
+    <link href="style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+    
+    <body>
+        
+        <nav class="navbar navbar-fixed-top navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a id="beehive" class="navbar-brand" href="#">Beehive</a>
+                </div>
+                
+                <div class="collapse navbar-collapse" id="navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#" class="active">Home</a></li>
+                        <li><a href="" class="dropdown-toggle" data-toggle="dropdown">About</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">FAQs</a></li>
+                                <li><a href="" class="dropdown-item">Newsletters</a></li>
+                                <li><a href="" class="dropdown-item">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="dropdown-toggle" data-toggle="dropdown">Resources</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="https://www.udemy.com/courses/search/?q=startup&src=sac&kw=startup" class="dropdown-item">Explore courses</a></li>
+                                <li><a href="" class="dropdown-item">Books</a></li>
+                                <li><a href="https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjQvJ797OfqAhXKESsKHRAICbIYABABGgJzZg&ohost=www.google.com&cid=CAESQOD2-b0CjOHtlQZ67suDVZIpy4MfcNBnQ0NDIr2ZeCKQHYmPFEY0wHprDniURHq2v74i_vvARQgVdxD2MfA-nU0&sig=AOD64_23fiURaXLSqnUIs_1oqP2akqplQw&q&adurl&ved=2ahUKEwiknZf97OfqAhUBXisKHVEEDO0Q0Qx6BAgREAE" class="dropdown-item">Buy a domain name</a></li>
+                                <li><a href="https://www.hostinger.in/" class="dropdown-item">Webhosting service</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="" class="dropdown-toggle" data-toggle="dropdown">Network</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="" class="dropdown-item">Connect with Startups</a></li>
+                                <li><a href="" class="dropdown-item">Connect with Incubators</a></li>
+                                <li><a href="" class="dropdown-item">Connect with Mentors</a></li>
+                                <li><a href="" class="dropdown-item">Connect with Investors</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#events">Blog</a>
+                        </li>
+                        <li><a href=""  data-toggle="modal" data-target="#signup"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="cover">
+            <div class="cover-text">
+                <h1>Join our Community</h1>
+                <p class="lead">Welcome to Beehive! Beehive is a network of communities and entrepreneurs that mentor and help each other with their business and start-ups. Sign up and be a part of the hive today!</p>
+                <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#signup">Sign Up</button>
+                
+                <!--Modal-->
+                <form class="modal" id="signup">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                    
+                                    <h4 class="modal-title"><span class="glyphicon glyphicon-modal-window"></span> Sign Up</h4>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <label>Name</label>
+                                        <input type="text" placeholder="Enter your name" class="form-control">       
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label>Email</label>
+                                        <input type="text" placeholder="Enter your email-id" class="form-control">       
+                                    </div>
+                                    
+                                    <div class="form-group">
+                                        <label>Password</label>
+                                        <input type="password" placeholder="Enter password" class="form-control">
+                                    </div>
+                                    
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                        <button type="submit" class="btn btn-primary">Save changes</button>
+                                    </div>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                   
+                </form>
+                
+            </div>
+        </div>
+        
+        <section id="events">
+            <h2>Events</h2>
+            <div class="container">
+                <div class="row"  col-sm-offset-2>
+                    <div id="prev" class="card col-sm-5">
+                        <div class="card-body">
+                            <h3 class="card-title">Previous Events</h3>
+                            <p class="card-text">Esse comprehenderit consequat sunt offendit, iis officia ea singulis, id duis 
+                                nescius mandaremus iis singulis elit proident. Lorem efflorescere ingeniis quem 
+                                litteris, ita an sint excepteur, culpa mentitum aut legam sunt et se de 
+                                illustriora id cernantur ipsum doctrina, ex malis mandaremus instituendarum ad 
+                                quae consequat cohaerescant ubi ad quibusdam sempiternum. Dolore ubi fabulas o 
+                                cillum. Probant duis nulla iudicem quis, in probant ne tempor o non quid ullamco 
+                                deserunt e pariatur ne fabulas si est iis quae aliqua summis, de tamen aliquip 
+                                litteris se aut ne firmissimum, ubi irure incurreret sempiternum. Id labore 
+                                comprehenderit si incurreret culpa </p>
+                            <a href="#" role="button" class="card-link btn btn-primary pull-right">Read</a>
+                        </div>
+                    </div>
+                    
+                    <div id="upcoming" class="card col-sm-5">
+                        <div class="card-body">
+                            <h3 class="card-title">Upcoming Events</h3>
+                            <p class="card-text">Esse comprehenderit consequat sunt offendit, iis officia ea singulis, id duis 
+                                nescius mandaremus iis singulis elit proident. Lorem efflorescere ingeniis quem 
+                                litteris, ita an sint excepteur, culpa mentitum aut legam sunt et se de 
+                                illustriora id cernantur ipsum doctrina, ex malis mandaremus instituendarum ad 
+                                quae consequat cohaerescant ubi ad quibusdam sempiternum. Dolore ubi fabulas o 
+                                cillum. Probant duis nulla iudicem quis, in probant ne tempor o non quid ullamco 
+                                deserunt e pariatur ne fabulas si est iis quae aliqua summis, de tamen aliquip 
+                                litteris se aut ne firmissimum, ubi irure incurreret sempiternum. Id labore 
+                                comprehenderit si incurreret culpa </p>
+                            <a href="#" role="button" class="card-link btn btn-primary pull-right">Attend</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="testimonials">
+            <div class="container">
+                <h2>Community Testimonials</h2>
+                <div class="row col-sm-offset-2">
+                    <div class="col-sm-5">
+                        <p>"I was pretty nervous about my start up at first. I knew the idea was good enough, but didn't know how to implement. Through Beehive, I've not only found people who have mentored me throughout my journey, but I've also met many geniune people who discuss their projects and ideas and always welcome constructive criticism or any suggestions that other people give. I hope this community grows more through the years. Kudos to Beehive!"</p>
+                        <cite class="pull-right">&mdash; Linuxxx99</cite>
+                    </div>
+                    <div class="col-sm-5">
+                        <p>"When I started my work i didn’t knew what exactly was the need but I had certain ideas about it, Mentors from beehive understood my problems formatted out their ideas matching mine which turned out to be perfect. Plus they even figured out my shortcomings and helped me with it and gave me some nice tips too. I got the clear vision on what I was working on and thus had a successful boost to my startup. Plus I learned a lot from them"</p>
+                        <cite class="pull-right">&mdash; Jarvis372</cite>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="signup">
+            <div class="container">
+                <h2>Join the Beehive Community</h2>
+                <div id="sign">    
+                    <button type="button" class="btn btn-danger btn-lg" data-toggle="modal" data-target="#signup">Sign Up</button>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="container-fluid">
+          <p class="pull-left">&copy; Beehive 2020. All rights reserved.</p>
+          <div class="pull-right">
+              <ul class="list-inline">
+                  <li><a href="#">Privacy Policiy</a></li>
+                  <li><a href="#">Terms &amp; Conditions</a></li>
+              </ul>
+          </div>
+          
+          <div id="me">crafted with &hearts; in calgary by<br> <a href="#">Atharva Kulkarni</a></div>
+      </footer>
+      
+      <!-- jQuery library -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!-- Latest compiled and minified JavaScript -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+        
+        <!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha384-nvAa0+6Qg9clwYCGGPpDQLVpLNn0fRaROjHqs13t4Ggj3Ez50XnGQqc/r8MhnRDZ" crossorigin="anonymous"></script>
+        <script src="bootstrap-3.4.1-dist/js/bootstrap.min.js"></script>   
+    </body>
+    
+</html>
